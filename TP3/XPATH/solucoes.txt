@@ -1,0 +1,18 @@
+a) A lista de todos os Espetáculos com pelo menos 500 bilhetes disponíveis
+    //Espetaculo[@numBilhetes>=500]
+
+b) O nome do primeiro Evento no Festival "Músicas do Mundo"
+    //Nome[text()= "Músicas do Mundo"]/../Eventos/Espetaculo/Nome
+
+c) Os Espetáculos que têm como artista a atuar o “Pablo Milanés”
+    //Artista[text()="Pablo Milanés"]/../..
+
+d) O número de Eventos que existem no Festival “Música Cubana”
+    count(//Nome[text() = "Música Cubana"]/../Eventos/*)
+
+e) O nome do Evento patrocinado pela EDP
+    //Espetaculo[@codEspetaculo="E01"]/Nome
+
+f) A lista de todos os Espetáculos que seguem ao Evento “Pablo Milanés” que irá ocorrer
+    no Festival “Música Cubana” que faz parte do Festival “Músicas do Mundo”.
+    //Nome[text()="Músicas do Mundo"]/../Eventos/Festival/Nome[text()="Música Cubana"]/../Eventos/Espetaculo[position()>1]
