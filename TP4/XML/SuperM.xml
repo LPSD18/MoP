@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SuperM>
+    <Produtos>
+        <Categoria>
+            <Nome>Alimentos</Nome>
+            <Produto>
+                <Nome>Ovos de Solo Classe L</Nome>
+                <Preco>2.59</Preco>
+                <Stock>254</Stock>
+                <Validade>20/01/2024</Validade>
+            </Produto>
+            <Produto>
+                <Nome>Bifanas de Porco</Nome>
+                <Preco>5.08</Preco>
+                <Stock>256</Stock>
+                <Validade>28/08/2023</Validade>
+            </Produto> 
+            
+        <Produto><Nome>Bifanas de Vaca</Nome><Preco>2.0</Preco><Stock>2</Stock><Validade>2</Validade></Produto></Categoria>
+        <Categoria>
+            <Nome>Limpeza</Nome>
+            <Produto>
+                <Nome>Champô Homem Controlo de Oleosidade Anticaspa Linic</Nome>
+                <Preco>4.94</Preco>
+                <Stock>50</Stock>
+                <alergias>
+                    <alergia>Tosse</alergia>
+                </alergias>
+            </Produto>
+            <Produto>
+                <Nome>Desodorizante Spray Men Black and White</Nome>
+                <Preco>2.25</Preco>
+                <Stock>256</Stock>
+                <alergias>
+                    <alergia>desidrose</alergia>
+                </alergias>
+            </Produto>
+            <Produto>
+                <Nome>Sabonete Líquido Recarga Leite e Mel</Nome>
+                <Preco>1.99</Preco>
+                <Stock>1000</Stock>
+                <alergias>
+                    <alergia>Irritação</alergia>
+                </alergias>
+            </Produto>
+        </Categoria>
+        <Categoria>
+            <Nome>Casa</Nome>
+            
+            <Produto>
+                <Nome>Moldura de Madeira de Carvalho</Nome>
+                <Preco>6.87</Preco>
+                <Stock>25</Stock>
+                <tipo>Decoração</tipo>
+            </Produto>
+            <Produto>
+                <Nome>Cadeira gaming vermelha e preta edição especial youtuber de crianças</Nome>
+                <Preco>299.99</Preco>
+                <Stock>2</Stock>
+                <tipo>Escritório</tipo>
+            </Produto>
+        <Produto><Nome>Moldura de Madeira </Nome><Preco>6.87</Preco><Stock>25</Stock><tipo>Decoração</tipo></Produto></Categoria>
+    </Produtos>
+</SuperM>

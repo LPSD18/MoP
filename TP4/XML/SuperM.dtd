@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT SuperM (Produtos)>
+<!ELEMENT Produtos (Categoria+)>
+<!ELEMENT Categoria (Nome, Produto+)>
+<!ELEMENT Nome (#PCDATA)>
+<!ELEMENT Produto ((Nome, Preco, Stock, Validade) | (Nome, Preco, Stock, alergias) | (Nome, Preco, Stock, tipo))>
+<!ELEMENT Preco (#PCDATA)>
+<!ELEMENT Stock (#PCDATA)>
+<!ELEMENT Validade (#PCDATA)>
+<!ELEMENT alergias (alergia)>
+<!ELEMENT alergia (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
